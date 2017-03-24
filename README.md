@@ -11,7 +11,7 @@ The text itself is displayed on first three lines of the LCD screen, sender numb
 
 Technical overview: I conceptualized and prototyped a custom AVR-based device in my electronics lab, wrote some firmware for it in C mostly to talk to HC-05 and LCD, and made a companion application for Android in Java to communicate over Bluetooth using a basic XML-based protocol. The device goes in the car on the dashboard, and connects to an Android smartphone using Bluetooth. Then you launch the SmsBoxAndroid app on Android, it hooks up to SmsReceived event and whenever you get a new text it sends it over to Arduino.  Hardware modules:
 
-The pseudo-XML format is: <sms><msg>The message itself that's displayed in first three lines.</msg><sender>phone_number</sender></sms>
+The pseudo-XML format is: < sms >< msg >The message itself that's displayed in first three lines.</ msg >< sender >phone_number</ sender ></ sms > (remove spaces in tags, something with Github formatting hides them if I just put straight tags)
 
 The hardware:
 
