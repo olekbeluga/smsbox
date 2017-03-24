@@ -16,14 +16,21 @@ The pseudo-XML format is: <sms><msg>The message itself that's displayed in first
 The hardware:
 
 1) Arduino Uno R3 or just an ATMEGA chip with firmware flashed.
+
 2) HC-05 Bluetooth module -- it can act as a master/slave, which is useful if we want it to initialize communication sometimes in the future.
+
 3) 20x4 I2C LCD: can display 4 lines, 20 characters per line. 
    3x20 for SMS, 1x20 for sender number/name. Do you really need more than first 60 characters of an SMS to see if the SMS is worth
    further effort?
+   
 4) Something to hold the cables routed to HC-05 and the LCD. I used a perfboard soldered to the bottom of my Arduino.
+
 5) A power supply, options: 
+
    a) either a 9V battery + battery-holder. 
+   
    b) long, 6 foot USB A-to-B cable to power up this thing from the car lighter jack.
+   
   I would go with option b) because I noticed a 9V battery provides about 4-5 hours of uptime so it's quite expensive unless they're rechargeable or something I guess.
 
 The parts above go into one enclosure with a window for LCD and some holes for power cables if necessary.
