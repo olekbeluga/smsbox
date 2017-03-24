@@ -5,6 +5,8 @@ SmsBox.
 
 It is an external notice screen for your smartphone, meant to be placed on the dashboard of your vehicle. It notifies you when you get a new SMS and immediately displays it on the 20x4 LCD. You don’t have to interact with your phone and get distracted which should improve driving safety.
 
+You don’t have to interact with your phone at all to determine importance of the message each time you get beep. The idea is to increase driving safety by reducing the need to “text and drive” by viewing SMS communication as a stream of information displayed alongside speed, radio controls, audio volume, etc.
+
 You place it on the dashboard, pair Android with it (using a custom app I made), and then it notifies you whenever there is a new text and lets you immediately read it on the LCD without having to dig through your phone.
 
 The text itself is displayed on first three lines of the LCD screen, sender number on fourth line.
